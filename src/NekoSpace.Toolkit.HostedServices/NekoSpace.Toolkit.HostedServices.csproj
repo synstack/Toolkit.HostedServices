@@ -1,8 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <PackageId>NekoSpace.Toolkit.HostedServices</PackageId>
-        <PackageVersion>1.0.0</PackageVersion>
+        <Version>1.0.0</Version>
         <Authors>bsdayo</Authors>
         <Description>Utilities for building Hosted Service for .NET Generic Host (or ASP.NET Core) applications.</Description>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
