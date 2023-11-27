@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NekoSpace.Toolkit.HostedServices", "src\NekoSpace.Toolkit.HostedServices\NekoSpace.Toolkit.HostedServices.csproj", "{3AF184ED-D1AF-4BA5-89CC-C1F9BFE0469C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CronExample", "examples\CronExample\CronExample.csproj", "{50FCDAF4-246A-4DFC-9452-CAC5FB6C3792}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AF184ED-D1AF-4BA5-89CC-C1F9BFE0469C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF184ED-D1AF-4BA5-89CC-C1F9BFE0469C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF184ED-D1AF-4BA5-89CC-C1F9BFE0469C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF184ED-D1AF-4BA5-89CC-C1F9BFE0469C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50FCDAF4-246A-4DFC-9452-CAC5FB6C3792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50FCDAF4-246A-4DFC-9452-CAC5FB6C3792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50FCDAF4-246A-4DFC-9452-CAC5FB6C3792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50FCDAF4-246A-4DFC-9452-CAC5FB6C3792}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
