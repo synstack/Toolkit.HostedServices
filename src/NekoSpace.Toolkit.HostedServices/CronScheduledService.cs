@@ -30,14 +30,15 @@ public abstract class CronScheduledService : IHostedService, IDisposable
 
         _timer.Stop();
 
-        var nextOccurrence = _cronExpr.GetNextOccurrence(DateTime.UtcNow);
+        var now = DateTime.UtcNow;
+        var nextOccurrence = _cronExpr.GetNextOccurrence(now);
         if (nextOccurrence is not { } next)
         {
             Debug.WriteLine("No next occurrence.");
             return;
         }
 
-        var delay = next - DateTime.UtcNow;
+        var delay = next - now;
 
         Debug.WriteLine($"Delay {delay}, next occurrence: {next.ToLocalTime()}");
 
